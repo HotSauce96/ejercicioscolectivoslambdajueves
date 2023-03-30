@@ -1,4 +1,4 @@
-mostrarNombres = lambda nombres: print(f'Los nombres son: {nombres}') 
+mostrarNombres = lambda nombres: print(f'El nombre es: {nombres}') 
 
 resultado = mostrarNombres('jairo')
 
