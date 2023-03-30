@@ -1,6 +1,7 @@
 nombres = []
 def MostrarNombres(nombres):
-        nombres = input("Digite nombre 1: ")
+        nombre1 = input("Digite nombre 1: ")
+        nombres.append(nombre1)
         nombres = input("Digite nombre 2: ")
         nombres = input("Digite nombre 3: ")
         nombres = input("Digite nombre 4: ")
@@ -10,3 +11,4 @@ def MostrarNombres(nombres):
         nombres = input("Digite nombre 8: ")
         
 MostrarNombres(nombres)
+print(MostrarNombres)
